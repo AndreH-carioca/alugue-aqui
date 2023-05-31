@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="./assets/css/home.css">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <meta name="title" content="Alugue Aqui">
+  <title>Alugue Aqui | Aluguel de Carro rápido </title>
+</head>
+<body>
+  <div id="progress">
+    <span id="progress-value">&#x1F815;</span>
+  </div>
+  <header class="header" data-header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./assets/images/alugueaqui-white.png" width="300" height="24" alt="Adex home" class="logo-light">
+        <img src="./assets/images/alugueaqui-dark.png" width="250" height="24" alt="Adex home" class="logo-dark">
+      </a>
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/alugueaqui-white.png" width="200" height="24" alt="Adex home">
+          </a>
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li><a href="#" class="navbar-link">Início</a></li>
+          <li><a href="/pages/locação.html" class="navbar-link">Locação</a></li>
+          <li><a href="#" class="navbar-link">Frota</a></li>
+          <li><a href="#" class="navbar-link">Seminovo</a></li>
+          <li><a href="#" class="navbar-link">Contato</a></li>
+        </ul>
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">andrhigino2@gmail.com</a>
+          <a href="tel:001234567890" class="contact-link">(92) 99216-0367</a>
+        </div>
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <a href="/pages/login.html" class="btn btn-primary">Login</a>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="h1 hero-title">Partiu alugar um carro?</h1>
+            <h1 class="h1 hero-title">Venha Alugar Aqui!</h1>
+              <div class="hero-banner"></div>
+              <form action="" class="hero-form">
+              <div class="input-wrapper">
+                <label for="input-1" class="input-label">Local de Retiração</label>
+                <input type="search" name="car-model" id="input-1" class="input-field" placeholder="Digite o local de retirada">
+              </div>
+              <div class="input-wrapper">
+                <label for="input-2" class="input-label">Data da Retirada</label>
+                <input type="date" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $">
+              </div>
+              <div class="input-wrapper">
+                <label for="input-3" class="input-label">Dia de Devolução</label>
+                <input type="date" name="year" id="input-3" class="input-field" placeholder="Add a minimal make year">
+              </div>
+              <button type="submit" class="btn">Pesquisar</button>
+          </div>
+          <div class="hero-slider" data-slider>
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+                <li class="slider-item">
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/family3.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/family4.png" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/family1.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/family5.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+                <li class="slider-item">
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/family2.png" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+          <p class="section-subtitle" id="project-label">Modelos mais solicitados!</p>
+          <h2 class="h2 section-title">
+            Conheça nossos modelos!
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/fiat-mobi.png" width="500" height="300" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GRUPO - A (Compacto)</a>
+                  </h3>
+                  <p class="card-text">
+                    Transmissão Manual, Gasolina - 152km/h.
+                  </p>
+      
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                    </li>
+                    <li class="card-meta-item">
+                      <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
+                      <a href="https://github.com/" target="_blank" class="btn-text">
+                        <span class="meta-text">Conheça outros Modelos</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/fiat-uno.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GRUPO - B (Compacto com Ar)</a>
+                  </h3>
+                  <p class="card-text">
+                    Transmissão Manual, Gasolina - 177km/h.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
+                      <a href="https://github.com/" target="_blank" class="btn-text">
+                        <span class="meta-text">Conheça outros Modelos</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/jeep-compass.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GRUPO - LE (SUV Especial)</a>
+                  </h3>
+                  <p class="card-text">
+                    Transmissão Automática, Gasolina e Diesel - 207km/h.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
+                      <a href="https://github.com/" target="_blank" class="btn-text">
+                        <span class="meta-text">Conheça outros Modelos</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/chevrolet-sedã.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GRUPO - FS (Sedan)</a>
+                  </h3>
+                  <p class="card-text">
+                    Transmissão Automática, Gasolina - 187km/h.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
+                      <a href="https://github.com/" target="_blank" class="btn-text">
+                        <span class="meta-text">Conheça outros Modelos</span>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/c4-cactus.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GRUPO - GC (SUV Automático)</a>
+                  </h3>
+                  <p class="card-text">
+                    Transmissão Automática, Gasolina - 212km/h.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
+                      <a href="https://github.com/" target="_blank" class="btn-text">
+                        <span class="meta-text">Conheça outros Modelos</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/hyundai-hb20.png" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GRUPO - F (Hatch)</a>
+                  </h3>
+                  <p class="card-text">
+                    Transmissão Automática/Manual, Gasolina - 192km/h.
+                  </p>
+                  <ul class="card-meta-list">
+                    <li class="card-meta-item">
+                      <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
+                      <a href="https://github.com/" target="_blank" class="btn-text">
+                        <span class="meta-text">Conheça outros Modelos</span>
+                      </a>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+          <h2 class="h2 section-title">
+            Conheça os Nossos Serviços
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="car-sport-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Seguro</h3>
+                <p class="card-text">
+                  Com Alugue Aqui você terá atendimento priorizado com acessores treinados em casos de roubo, furto e emergências
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="call" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Suporte 24h</h3>
+                <p class="card-text">
+                  A Alugue Aqui oferece soluções inovadoras no mercado, assistências 24 horas e reposição de automóvel.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="cash-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Venda de Carros</h3>
+                <p class="card-text">
+                  Identificamos as suas necessidades, priorizamos a sua decisão de comprar ao escolher um veículo nas nossas lojas.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="checkmark-circle-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Web Check-in</h3>
+                <p class="card-text">
+                  O Web Check-in é um serviço digital que permite antecipar os procedimentos que a loja realiza para concluir a locação. 
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+          <figure class="feature-banner">
+            <img src="./assets/images/cliente-aluguel.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+          <div class="feature-content">
+            <p class="section-subtitle" id="feautre-label">Nosso Objetivo</p>
+            <p class="section-text">
+              A Companhia mantém permanente processo de renovação de sua frota operacional, com a desmobilização de seu ativo a partir de doze meses contados da respectiva aquisição e consequente venda desses veículos seminovos.
+            </p>
+            <p class="section-subtitle" id="feautre-label">Nossos Pilares:</p>
+            <ul class="feature-list">
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                   Responsabilidade
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                   Inovação
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    Flexibilidade
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    Movimentação Urbana
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="stats" aria-label="our stats">
+        <div class="container">
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+            <li>
+              <p class="card-text">
+                <span class="h1">800</span>
+                <spna class="span">Entregas em Manaus</spna>
+              </p>
+            </li>
+            <li>
+              <p class="card-text">
+                <span class="h1">1090 </span>
+                <spna class="span">Clientes Felizes</spna>
+              </p>
+            </li>
+            <li>
+              <p class="card-text">
+                <span class="h1">694</span>
+                <spna class="span">Carros Alugados</spna>
+              </p>
+            </li>
+            <li>
+              <p class="card-text">
+                <span class="h1">120</span>
+                <spna class="span">Carros Novos</spna>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+          <p class="section-subtitle" id="project-label">Confira os nossos diferenciais</p>
+          <h2 class="h2 section-title">
+            Razões para ser cliente AlugueAqui
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/alugando-carro.png" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Carros por assinatura!</a>
+                  </h3>
+                  <p class="card-text">
+                    É um serviço de carro por assinatura para pessoa física com valor mensal. Alugue um carro pelo período mínimo de 12 meses.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/mae-filha.png" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Presenteie quem lhe ama!</a>
+                  </h3>
+                  <p class="card-text">
+                    Presentear é uma forma de eternizar o seu amor de uma maneira única. A AlugueAqui possui os ZeroKM para quem você presentear.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/jovem-motorista.png" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Garanta o seu 1° Carro</a>
+                  </h3>
+                  <p class="card-text">
+                    Possuímos uma frota destinada para jovens que almejam conquistar o sonho do primeiro carro, não importando o modelo.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            A Alugue Aqui está presente na sua vida. Mova-se conosco também!
+          </h2>
+
+          <a href="#" class="btn btn-primary">Conheça nossos modelos!</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <p class="footer-text">
+          &copy; 2023 Alugue Aqui. <br> Todos os direitos reservados.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="github.com/AndreH-carioca" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/higinoandre" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/andrehiginocarioca/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/andrehiginocarioca/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+        </ul>
+      </div>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Entre em Contato</p>
+        </li>
+        <li>
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">andrhigino2@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">55 (92) 99216-0367</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <p class="h4 footer-list-title">Alugue Aqui</p>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Início</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Frota</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Seminovo</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Contato</a>
+        </li>
+      </ul>
+      <div class="footer-list">
+        <p class="h4 footer-list-title">Nossa Filosofia</p>
+        <p class="footer-text">
+        "O carro para a sua rotina, seja qual for a sua necessidade"
+        </p>
+        <form action="" class="input-wrapper">
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
