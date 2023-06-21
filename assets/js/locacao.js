@@ -77,34 +77,6 @@ const initSlider = function(currentSlider) {
 
 }
 
-
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition, errorHandler);
-  } else {
-    document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
-
-function showPosition(position) {
-  var latitude = position.coords.latitude;
-  var longitude = position.coords.longitude;
-  document.getElementById("location").innerHTML = "Latitude: " + latitude + "<br>Longitude: " + longitude;
-}
-
-function errorHandler(error) {
-  switch (error.code) {
-    case error.PERMISSION_DENIED:
-      document.getElementById("location").innerHTML = "Posição bloqueada";
-      break;
-    case error.POSITION_UNAVAILABLE:
-      document.getElementById("location").innerHTML = "Localização não encontrada.";
-      break;
-  }
-}
-
-getLocation();
-
 for (let i = 0, len = sliders.length; i < len; i++) { initSlider(sliders[i]); }
 
 const accordions = document.querySelectorAll("[data-accordion]");

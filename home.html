@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./assets/css/home.css">
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   <meta name="title" content="Alugue Aqui">
-  <title>Alugue Aqui | Aluguel de Carro rápido </title>
+  <title> Início | Aluguel de Carro rápido </title>
 </head>
 <body>
   <div id="progress">
@@ -19,8 +19,8 @@
   <header class="header" data-header>
     <div class="container">
       <a href="#" class="logo">
-        <img src="./assets/images/alugueaqui-white.png" width="300" height="24" alt="Adex home" class="logo-light">
-        <img src="./assets/images/alugueaqui-dark.png" width="250" height="24" alt="Adex home" class="logo-dark">
+        <img src="./assets/images/alugueaqui-white.png" width="300" height="24" alt="logomarca branca" class="logo-light">
+        <img src="./assets/images/alugueaqui-dark.png" width="250" height="24" alt="logomarca preta" class="logo-dark">
       </a>
       <nav class="navbar" data-navbar>
         <div class="navbar-top">
@@ -32,11 +32,10 @@
           </button>
         </div>
         <ul class="navbar-list">
-          <li><a href="#" class="navbar-link">Início</a></li>
-          <li><a href="/pages/locação.html" class="navbar-link">Locação</a></li>
-          <li><a href="#" class="navbar-link">Frota</a></li>
-          <li><a href="#" class="navbar-link">Seminovo</a></li>
-          <li><a href="#" class="navbar-link">Contato</a></li>
+          <li><a href="home.html" class="navbar-link">Início</a></li>
+          <li><a href="locação.html" class="navbar-link">Locação</a></li>
+          <li><a href="frota.html" class="navbar-link">Frota</a></li>
+          <li><a href="contato.html" class="navbar-link">Contato</a></li>
         </ul>
         <div class="wrapper">
           <a href="mailto:info@email.com" class="contact-link">andrhigino2@gmail.com</a>
@@ -44,33 +43,20 @@
         </div>
         <ul class="social-list">
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
+            <a href="https://twitter.com/higinoandre" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
           </li>
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
+            <a href="github.com/AndreH-carioca" class="social-link" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
           </li>
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
+            <a href="https://www.linkedin.com/in/andrehiginocarioca/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
           </li>
           <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
+            <a href="https://www.instagram.com/andrehiginocarioca/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
           </li>
         </ul>
       </nav>
-      <a href="/pages/login.html" class="btn btn-primary">Login</a>
+      <a href="login.html" class="btn btn-primary">Login</a>
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
       </button>
@@ -88,16 +74,20 @@
               <div class="hero-banner"></div>
               <form action="" class="hero-form">
               <div class="input-wrapper">
-                <label for="input-1" class="input-label">Local de Retiração</label>
-                <input type="search" name="car-model" id="input-1" class="input-field" placeholder="Digite o local de retirada">
+                <label for="input-1" class="input-label" id="location">Local de Retiração</label>
+                <!-- <input type="search" name="car-model" id="input-1" class="input-field" placeholder="Digite o local de retirada"> -->
               </div>
+              <select type="search" name="car-model" id="input-1" class="input-select" placeholder="Digite o local de retirada">
+                <option>Escolha o local de retirada</option>
+                <option>Estácio, AM</option>
+              </select>
               <div class="input-wrapper">
                 <label for="input-2" class="input-label">Data da Retirada</label>
-                <input type="date" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $">
+                <input type="date" name="" id="input-2" class="input-field" placeholder="">
               </div>
               <div class="input-wrapper">
                 <label for="input-3" class="input-label">Dia de Devolução</label>
-                <input type="date" name="year" id="input-3" class="input-field" placeholder="Add a minimal make year">
+                <input type="date" name="" id="input-3" class="input-field" placeholder="">
               </div>
               <button type="submit" class="btn">Pesquisar</button>
           </div>
@@ -110,24 +100,17 @@
                   </figure>
                 </li>
                 <li class="slider-item">
-
                   <div class="hero-card">
                     <figure class="img-holder" style="--width: 575; --height: 550;">
-                      <img src="./assets/images/family4.png" width="575" height="550" alt="hero banner"
-                        class="img-cover">
+                      <img src="./assets/images/family4.png" width="575" height="550" alt="hero banner" class="img-cover">
                     </figure>
                   </div>
-
                 </li>
-
                 <li class="slider-item">
-
                   <figure class="img-holder" style="--width: 575; --height: 550;">
                     <img src="./assets/images/family1.png" width="575" height="550" alt="" class="img-cover">
                   </figure>
-
                 </li>
-
                 <li class="slider-item">
                   <figure class="img-holder" style="--width: 575; --height: 550;">
                     <img src="./assets/images/family5.png" width="575" height="550" alt="" class="img-cover">
@@ -149,9 +132,10 @@
           </div>
         </div>
       </section>
+    </section>
       <section class="section project" aria-labelledby="project-label">
         <div class="container">
-          <p class="section-subtitle" id="project-label">Modelos mais solicitados!</p>
+          <p class="section-subtitle" id="project-label">Modelos mais alugados!</p>
           <h2 class="h2 section-title">
             Conheça nossos modelos!
           </h2>
@@ -167,148 +151,155 @@
                     <a href="#" class="card-title">GRUPO - A (Compacto)</a>
                   </h3>
                   <p class="card-text">
-                    Transmissão Manual, Gasolina - 152km/h.
+                    Câmbio Manual, Gasolina - 152km/h.
                   </p>
-      
                   <ul class="card-meta-list">
                     <li class="card-meta-item">
                     </li>
                     <li class="card-meta-item">
                       <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
-                      <a href="https://github.com/" target="_blank" class="btn-text">
-                        <span class="meta-text">Conheça outros Modelos</span>
+                      <a href="/pages/locação.html"  target="_blank" class="btn-text">
+                        <span class="meta-text">R$80,00</span>
                       </a>
                     </li>
                   </ul>
                 </div>
+                <button>
+                  <a href="login.html" class="btn btn-pesquisar">Alugar</a>
+              </button>              
               </div>
             </li>
             <li>
               <div class="project-card">
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/fiat-uno.png" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                  <img src="./assets/images/fiat-uno.png" width="560" height="350" loading="lazy" alt="Foto do Fiat Uno" class="img-cover">
                 </figure>
                 <div class="card-content">
                   <h3 class="h3">
                     <a href="#" class="card-title">GRUPO - B (Compacto com Ar)</a>
                   </h3>
                   <p class="card-text">
-                    Transmissão Manual, Gasolina - 177km/h.
+                    Câmbio Manual, Gasolina - 177km/h.
                   </p>
                   <ul class="card-meta-list">
                     <li class="card-meta-item">
                       <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
-                      <a href="https://github.com/" target="_blank" class="btn-text">
-                        <span class="meta-text">Conheça outros Modelos</span>
+                      <a href="/pages/locação.html"  target="_blank" class="btn-text">
+                        <span class="meta-text">R$100,00</span>
                       </a>
                     </li>
-
                   </ul>
-
                 </div>
-
+                <button>
+                  <a href="login.html" class="btn btn-pesquisar">Alugar</a>
+              </button>  
               </div>
             </li>
             <li>
               <div class="project-card">
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
                   <img src="./assets/images/jeep-compass.png" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                    alt="Foto Jeep Compass" class="img-cover">
                 </figure>
                 <div class="card-content">
                   <h3 class="h3">
                     <a href="#" class="card-title">GRUPO - LE (SUV Especial)</a>
                   </h3>
                   <p class="card-text">
-                    Transmissão Automática, Gasolina e Diesel - 207km/h.
+                    Câmbio Automático, Diesel - 207km/h.
                   </p>
                   <ul class="card-meta-list">
                     <li class="card-meta-item">
                       <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
-                      <a href="https://github.com/" target="_blank" class="btn-text">
-                        <span class="meta-text">Conheça outros Modelos</span>
+                      <a href="/pages/locação.html"  target="_blank" class="btn-text">
+                        <span class="meta-text">R$120,00</span>
                       </a>
                     </li>
-
                   </ul>
-
                 </div>
-
+                <button>
+                  <a href="login.html" class="btn btn-pesquisar">Alugar</a>
+              </button>  
               </div>
             </li>
             <li>
               <div class="project-card">
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
                   <img src="./assets/images/chevrolet-sedã.png" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                    alt="Foto do Chevrolet Onix Sedã" class="img-cover">
                 </figure>
                 <div class="card-content">
                   <h3 class="h3">
                     <a href="#" class="card-title">GRUPO - FS (Sedan)</a>
                   </h3>
                   <p class="card-text">
-                    Transmissão Automática, Gasolina - 187km/h.
+                    Câmbio Automático, Gasolina - 187km/h.
                   </p>
                   <ul class="card-meta-list">
                     <li class="card-meta-item">
                       <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
-                      <a href="https://github.com/" target="_blank" class="btn-text">
-                        <span class="meta-text">Conheça outros Modelos</span>
+                      <a href="/pages/locação.html" target="_blank" class="btn-text">
+                        <span class="meta-text">R$135,00</span>
                       </a>
                     </li>
-
                   </ul>
-
                 </div>
-
+                <button>
+                  <a href="login.html" class="btn btn-pesquisar">Alugar</a>
+              </button>  
               </div>
             </li>
             <li>
               <div class="project-card">
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
                   <img src="./assets/images/c4-cactus.png" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                    alt="Foto do C4 Cactus" class="img-cover">
                 </figure>
                 <div class="card-content">
                   <h3 class="h3">
                     <a href="#" class="card-title">GRUPO - GC (SUV Automático)</a>
                   </h3>
                   <p class="card-text">
-                    Transmissão Automática, Gasolina - 212km/h.
+                    Câmbio Automático, Gasolina - 212km/h.
                   </p>
                   <ul class="card-meta-list">
                     <li class="card-meta-item">
                       <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
-                      <a href="https://github.com/" target="_blank" class="btn-text">
-                        <span class="meta-text">Conheça outros Modelos</span>
+                      <a href="/pages/locação.html"  target="_blank" class="btn-text">
+                        <span class="meta-text">R$125,00</span>
                       </a>
                     </li>
                   </ul>
                 </div>
+                <button>
+                  <a href="login.html" class="btn btn-pesquisar">Alugar</a>
+              </button>  
               </div>
             </li>
             <li>
               <div class="project-card">
                 <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
                   <img src="./assets/images/hyundai-hb20.png" width="560" height="350" loading="lazy"
-                    alt="Ultricies fusce porta elit" class="img-cover">
+                    alt="Foto do Hyundai Hb20" class="img-cover">
                 </figure>
                 <div class="card-content">
                   <h3 class="h3">
                     <a href="#" class="card-title">GRUPO - F (Hatch)</a>
                   </h3>
                   <p class="card-text">
-                    Transmissão Automática/Manual, Gasolina - 192km/h.
+                    Câmbio Automático, Gasolina - 192km/h.
                   </p>
                   <ul class="card-meta-list">
                     <li class="card-meta-item">
                       <ion-icon name="radio-button-on-outline" aria-hidden="true"></ion-icon>
-                      <a href="https://github.com/" target="_blank" class="btn-text">
-                        <span class="meta-text">Conheça outros Modelos</span>
+                      <a href="/pages/locação.html"  target="_blank" class="btn-text">
+                        <span class="meta-text">R$150,00</span>
                       </a>
                   </ul>
                 </div>
+                <button>
+                  <a href="login.html" class="btn btn-pesquisar">Alugar</a>
+              </button>  
               </div>
             </li>
           </ul>
@@ -426,7 +417,7 @@
       </section>
       <section class="stats" aria-label="our stats">
         <div class="container">
-          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+          <ul class="stats-card has-bg-image" style="background-image: url('/assets/images/clients-bg.jpg')">
             <li>
               <p class="card-text">
                 <span class="h1">800</span>
@@ -456,7 +447,7 @@
       </section>
       <section class="section project" aria-labelledby="project-label">
         <div class="container">
-          <p class="section-subtitle" id="project-label">Confira os nossos diferenciais</p>
+          <p class="section-subtitle" id="project-label">Conheça os nossos programas em destaque!</p>
           <h2 class="h2 section-title">
             Razões para ser cliente AlugueAqui
           </h2>
@@ -488,7 +479,7 @@
                     <a href="#" class="card-title">Presenteie quem lhe ama!</a>
                   </h3>
                   <p class="card-text">
-                    Presentear é uma forma de eternizar o seu amor de uma maneira única. A AlugueAqui possui os ZeroKM para quem você presentear.
+                    Presentear é uma forma de eternizar o seu amor de uma maneira única. Possuímos os ZeroKM para quem você presentear.
                   </p>
                 </div>
               </div>
@@ -514,63 +505,45 @@
       </section>
       <section class="cta" aria-label="call to action">
         <div class="container">
-
           <h2 class="h2 section-title">
             A Alugue Aqui está presente na sua vida. Mova-se conosco também!
           </h2>
-
-          <a href="#" class="btn btn-primary">Conheça nossos modelos!</a>
-
+          <a href="locação.php" class="btn btn-primary">Conheça nossos modelos!</a>
         </div>
       </section>
-
     </article>
   </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
   <footer class="footer">
     <div class="container grid-list">
-
       <div class="footer-brand">
-
         <p class="footer-text">
           &copy; 2023 Alugue Aqui. <br> Todos os direitos reservados.
         </p>
-
         <ul class="social-list">
-
           <li>
-            <a href="github.com/AndreH-carioca" class="social-link">
+            <a href="github.com/AndreH-carioca" target="_blank" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
-
           <li>
-            <a href="https://twitter.com/higinoandre" class="social-link">
+            <a href="https://twitter.com/higinoandre" target="_blank"  class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/andrehiginocarioca/" class="social-link">
+            <a href="https://www.linkedin.com/in/andrehiginocarioca/" target="_blank" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/andrehiginocarioca/" class="social-link">
+            <a href="https://www.instagram.com/andrehiginocarioca/" target="_blank" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
           <li>
         </ul>
       </div>
-      <ul class="footer-list">
+      <ul class="footer-list" >
         <li>
           <p class="h4 footer-list-title">Entre em Contato</p>
         </li>
@@ -588,22 +561,19 @@
           <p class="h4 footer-list-title">Alugue Aqui</p>
         </li>
         <li>
-          <a href="#" class="footer-link">Início</a>
+          <a href="locação.html" class="footer-link">Locação</a>
         </li>
         <li>
-          <a href="#" class="footer-link">Frota</a>
+          <a href="frota.html" class="footer-link">Frota</a>
         </li>
         <li>
-          <a href="#" class="footer-link">Seminovo</a>
-        </li>
-        <li>
-          <a href="#" class="footer-link">Contato</a>
+          <a href="contato.html" class="footer-link">Contato</a>
         </li>
       </ul>
       <div class="footer-list">
         <p class="h4 footer-list-title">Nossa Filosofia</p>
         <p class="footer-text">
-        "O carro para a sua rotina, seja qual for a sua necessidade"
+        "Seja qual for a sua necessidade de locomoção, temos o carro para você!"
         </p>
         <form action="" class="input-wrapper">
       </div>
